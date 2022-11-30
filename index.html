@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+            header {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            border: 1px solid black;}
+
+            main {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            border: 1px solid black;
+            height: 300px;}
+            
+            article {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            align-items: flex-end;
+            border: 1px solid black;
+            width: 60%;}
+
+            section {
+            border: 1px solid black;
+            display: flex;
+            height: 100px;
+            width: 200px;
+            align-content: space-around;
+            align-items: stretch;
+            flex-grow: 0;}
+            
+            .block3 {
+                align-self: center;
+                flex-grow: 1;
+            }
+
+            footer {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;}
+
+            aside {
+            display: flex;
+            border: 1px solid black;
+            width: 39%;}
+            
+    </style>
+</head>
+
+<body>
+<header>
+    <h1>Шапка страницы</h1>
+</header>
+<main>
+    <article>
+        <h2>Основная часть!!??!!!!!!!!!!!!!!!!!!!!</h2>
+        <section class="block">Номер 1</section>
+        <section class="block">Номер 2</section>
+        <section class="block3">Номер 3</section>
+    </article>
+    <aside>
+        <h3>Боковая часть</h3>
+    </aside>
+</main>
+<footer> 
+    <p>Секция футера 1</p>
+    <p>Секция футера 2</p>
+    <p>Секция футера 3</p>
+    <p>Секция футера 4</p>
+</footer>
+</body>
+</html>
